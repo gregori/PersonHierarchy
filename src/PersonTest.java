@@ -11,5 +11,9 @@ public class PersonTest {
         System.out.println("Nome: " + s.getName());
         s.setAddress("R. Cascal, 3");
         System.out.println(s);
+
+        Student st = new Student("Rodrigo", "R. Abc, 123",
+                "Eng. de Software", 2020, 1200);
+        System.out.println(st);
     }
 }
